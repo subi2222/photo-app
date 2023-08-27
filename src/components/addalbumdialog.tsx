@@ -13,7 +13,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { FolderPlus } from "lucide-react";
 import { useState } from "react";
-import { addImageToAlbum } from "./actions";
+import { addImageToAlbum } from "./action";
 
 export function AddToAlbumDialog({
   image,

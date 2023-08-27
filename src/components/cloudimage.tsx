@@ -3,10 +3,10 @@
 import { Heart } from "@/components/icons/heart";
 import { CldImage, CldImageProps } from "next-cloudinary";
 import { useState, useTransition } from "react";
-import { FullHeart } from "@/components/icons/full-heart";
+import { FullHeart } from "@/components/icons/heartfull";
 import { SearchResult } from "@/app/gallery/page";
-import { setAsFavoriteAction } from "@/app/gallery/actions";
-import { ImageMenu } from "./image-menu";
+import { setAsFavoriteAction } from "@/app/gallery/action";
+import { ImageMenu } from "./imagemenu";
 
 export function CloudinaryImage(
   props: {

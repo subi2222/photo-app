@@ -1,7 +1,7 @@
-import UploadButton from "./upload-button";
+import UploadButton from "./uploadbutton";
 import cloudinary from "cloudinary";
-import GalleryGrid from "./gallery-grid";
-import { SearchForm } from "./search-form";
+import GalleryGrid from "./gallerygrid";
+import { SearchForm } from "./searchform";
 
 export type SearchResult = {
   public_id: string;

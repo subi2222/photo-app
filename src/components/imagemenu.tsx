@@ -4,9 +4,9 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "@/components/ui/dropdownmenu";
 import { Menu } from "./icons/menu";
-import { AddToAlbumDialog } from "./add-to-album-dialog";
+import { AddToAlbumDialog } from "./addalbumdialog";
 import { SearchResult } from "@/app/gallery/page";
 import { useState } from "react";
 import Link from "next/link";

@@ -1,5 +1,5 @@
 import cloudinary from "cloudinary";
-import { AlbumCard } from "./album-card";
+import { AlbumCard } from "./albumcard";
 
 export type Folder = { name: string; path: string };
 

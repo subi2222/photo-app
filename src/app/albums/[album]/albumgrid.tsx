@@ -1,7 +1,7 @@
 "use client";
 
-import { ImageGrid } from "@/components/image-grid";
-import { CloudinaryImage } from "@/components/cloudinary-image";
+import { ImageGrid } from "@/components/imagegrid";
+import { CloudinaryImage } from "@/components/cloudimage";
 import { SearchResult } from "@/app/gallery/page";
 
 export default function AlbumGrid({ images }: { images: SearchResult[] }) {
